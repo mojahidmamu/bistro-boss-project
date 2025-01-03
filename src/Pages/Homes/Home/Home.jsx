@@ -17,8 +17,7 @@ const Home = () => {
             <ShefRecommended></ShefRecommended>
             <Featured></Featured>
             <Testimonials></Testimonials>
-         
-            
+
         </div>
     );
 };
