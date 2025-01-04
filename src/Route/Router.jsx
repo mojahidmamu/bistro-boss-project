@@ -4,8 +4,8 @@ import Home from "../Pages/Homes/Home/Home";
 import Menu from "../Pages/Menu/Menu/Menu";
 import Order from "../Pages/Order/Order/Order";
 import SingUp from "../Pages/SingUp/SingUp";
-import Login from "../Pages/Shared/Login/Login";
 import Secret from "../Pages/Shared/Secret/Secret"
+import Login from "../Pages/Login/Login";
 
 export const router = createBrowserRouter([
   {
