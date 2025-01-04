@@ -1,5 +1,7 @@
-import React from "react";
+ 
 import { Helmet } from "react-helmet-async";
+import Cover from "../../Shared/Cover/Cover";
+import ShopImage from '../../../assets/shop/banner2.jpg'
 
 const Order = () => {
   return (
@@ -7,7 +9,8 @@ const Order = () => {
       <Helmet>
         <title>Bistro | Order Food</title>
       </Helmet>
-      <h3>this is order</h3>
+       
+      <Cover img={ShopImage} title='OUR SHOP' subTitle='Would You Like To Try To Dish ?'></Cover>
     </div>
   );
 };
