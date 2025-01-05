@@ -55,6 +55,7 @@ const Login = () => {
               <p className="text-gray-400 text-center">New here? Create a New Account</p>
 
             </form>
+            <div className="divider">Or sign in with</div>
           </div>
         </div>
       </div>

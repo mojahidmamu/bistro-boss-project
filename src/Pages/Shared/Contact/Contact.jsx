@@ -73,10 +73,14 @@ const Contact = () => {
               className="input input-bordered"
               required
             />
-           </div>
+            <label>
+              <input type="checkbox" /> I'm not a robot
+            </label>
+          </div>
         </div>
-        
       </form>
+      <button className="btn btn-secondary mb-5 ml-96">Secondary</button>
+      
     </div>
   );
 };

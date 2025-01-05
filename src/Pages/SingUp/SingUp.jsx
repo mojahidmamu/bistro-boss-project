@@ -61,6 +61,7 @@ const SingUp = () => {
               <p className="text-gray-400 text-center"> Already registered? <span className="font-bold">Go to log in</span></p>
              
             </form>
+            <div className="divider">Or sign in with</div>
           </div>
         </div>
       </div>
