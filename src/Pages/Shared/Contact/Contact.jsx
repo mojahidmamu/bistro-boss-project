@@ -27,52 +27,55 @@ const Contact = () => {
         subHeading="---Send Us a Message---"
       ></SectionTitle>
       <form>
-        <div className="flex">
+        <div className="px-28">
+          <div className=" ">
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text">Name</span>
+              </label>
+              <input
+                type="text"
+                placeholder="Enter Your Name"
+                className="input input-bordered"
+                required
+              />
+            </div>
+            <div className="form-control ">
+              <label className="label">
+                <span className="label-text">Email</span>
+              </label>
+              <input
+                type="email"
+                placeholder="Enter Your Email"
+                className="input input-bordered"
+                required
+              />
+            </div>
+          </div>
           <div className="form-control">
             <label className="label">
-              <span className="label-text">Name</span>
+              <span className="label-text">Phone</span>
             </label>
             <input
-              type="text"
-              placeholder="Enter Your Name"
+              type="number"
+              placeholder="Enter Your Phone Number"
               className="input input-bordered"
               required
             />
           </div>
-          <div className="form-control">
+          <div className="form-control mb-10">
             <label className="label">
-              <span className="label-text">Email</span>
+              <span className="label-text">Message</span>
             </label>
             <input
-              type="email"
-              placeholder="Enter Your Email"
+              type=""
+              placeholder="Write your message hare"
               className="input input-bordered"
               required
             />
+           </div>
         </div>
-        </div>
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Phone</span>
-          </label>
-          <input
-            type="number"
-            placeholder="Enter Your Phone Number"
-            className="input input-bordered"
-            required
-          />
-        </div>
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Message</span>
-          </label>
-          <input
-            type=""
-            placeholder="Write your message hare"
-            className="input input-bordered"
-            required
-          />
-        </div>
+        
       </form>
     </div>
   );
