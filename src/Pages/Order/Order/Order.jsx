@@ -19,7 +19,7 @@ const Order = () => {
         <div role="tablist" className="tabs tabs-lifted">
            
           {/* <Link to='DESSERTS'><a role="tab" className="tab">DESSERTS</a></Link> */}
-          <a role="tab" className="tab">DRINTKS</a>
+          <a role="tab" className="tab"> <Link to='/DESSERTS'>DESSERTS</Link> </a>
           <a role="tab" className="tab">SALAD</a>
           <a role="tab" className="tab">PIZZA</a>
           <a role="tab" className="tab">DRINTKS</a>
