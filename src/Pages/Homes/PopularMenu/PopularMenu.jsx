@@ -23,7 +23,7 @@ const PopularMenu = () => {
              
             <SectionTitle
                 heading="From our menu"
-                subHeading="Popular Menu"
+                subHeading="Check it out"
             ></SectionTitle>
 
             
