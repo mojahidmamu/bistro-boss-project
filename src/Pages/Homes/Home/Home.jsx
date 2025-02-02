@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Banner/Banner";
-// import Category from '../Category/Category';
+import Category from '../Category/Category';
 import PopularMenu from "../PopularMenu/PopularMenu";
 import Featured from "../Featured/Featured";
 import Testimonials from "../Testomonials/Testomonials";
@@ -14,7 +14,7 @@ const Home = () => {
         <title>Bistro | Home</title>
       </Helmet>
       <Banner></Banner>
-      {/* <Category></Category> */}
+      <Category></Category>
       <PopularMenu></PopularMenu>
       <ShefRecommended></ShefRecommended>
       <Featured></Featured>
