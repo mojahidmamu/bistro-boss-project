@@ -7,6 +7,7 @@ import SingUp from "../Pages/SingUp/SingUp";
 import Secret from "../Pages/Shared/Secret/Secret"
 import Login from "../Pages/Login/Login";
 import Contact from "../Pages/Shared/Contact/Contact";
+import DESSERTS from "../Pages/Order/SubLinks/DESSERTS";
 
 export const router = createBrowserRouter([
   {
@@ -40,7 +41,11 @@ export const router = createBrowserRouter([
         {
           path: 'contact',
           element: <Contact></Contact>
-        }
+        },
+        // {
+        //   path: 'DESSERTS',
+        //   element: <DESSERTS></DESSERTS>
+        // }
     ],
   },
 ]);

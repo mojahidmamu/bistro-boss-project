@@ -8,8 +8,8 @@ const SingUp = () => {
         <title> | SingUp</title>
       </Helmet>
 
-      <div className="hero bg-base-200 min-h-screen">
-        <div className="hero-content flex-row lg:flex-row-reverse">
+      <div className="hero bg-base-200 min-h-screen ">
+        <div className="hero-content flex-row">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold mb-5">SignUp now!</h1>
             <img src={SingUpImage} alt="" />

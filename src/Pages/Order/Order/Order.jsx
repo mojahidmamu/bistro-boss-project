@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Cover from "../../Shared/Cover/Cover";
 import ShopImage from "../../../assets/shop/banner2.jpg";
+import { Link } from "react-router-dom";
 
 const Order = () => {
   return (
@@ -17,7 +18,7 @@ const Order = () => {
       <div>
         <div role="tablist" className="tabs tabs-lifted">
            
-          <a role="tab" className="tab">DESSERTS</a>
+          {/* <Link to='DESSERTS'><a role="tab" className="tab">DESSERTS</a></Link> */}
           <a role="tab" className="tab">DRINTKS</a>
           <a role="tab" className="tab">SALAD</a>
           <a role="tab" className="tab">PIZZA</a>
