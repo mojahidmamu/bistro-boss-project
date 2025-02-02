@@ -9,6 +9,8 @@ import Login from "../Pages/Login/Login";
 import Contact from "../Pages/Shared/Contact/Contact"; 
 import DESSERTS from "../Pages/Order/SubLinks/DESSERTS";
 import SALAD from "../Pages/Order/SubLinks/SALAD";
+import PIZZA from "../Pages/Order/SubLinks/PIZZA";
+import DRINTKS from "../Pages/Order/SubLinks/DRINTKS";
 
 export const router = createBrowserRouter([
   {
@@ -50,6 +52,14 @@ export const router = createBrowserRouter([
         {
           path: 'SALAD',
           element: <SALAD></SALAD>
+        },
+        {
+          path: 'PIZZA',
+          element: <PIZZA></PIZZA>
+        },
+        {
+          path: 'DRINTKS',
+          element: <DRINTKS></DRINTKS>
         }
     ],
   },

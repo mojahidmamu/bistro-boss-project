@@ -21,8 +21,8 @@ const Order = () => {
           {/* <Link to='DESSERTS'><a role="tab" className="tab">DESSERTS</a></Link> */}
           <a role="tab" className="tab"> <Link to='/DESSERTS'>DESSERTS</Link> </a>
           <a role="tab" className="tab"> <Link to='/SALAD'>SALAD</Link> </a>
-          <a role="tab" className="tab">PIZZA</a>
-          <a role="tab" className="tab">DRINTKS</a>
+          <a role="tab" className="tab"> <Link to='/PIZZA'>PIZZA</Link></a>
+          <a role="tab" className="tab"> <Link to='/DRINTKS'>DRINTKS</Link> </a>
         </div>
       </div>
     </div>
