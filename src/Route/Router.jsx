@@ -8,6 +8,7 @@ import Secret from "../Pages/Shared/Secret/Secret"
 import Login from "../Pages/Login/Login";
 import Contact from "../Pages/Shared/Contact/Contact"; 
 import DESSERTS from "../Pages/Order/SubLinks/DESSERTS";
+import SALAD from "../Pages/Order/SubLinks/SALAD";
 
 export const router = createBrowserRouter([
   {
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
         {
           path: 'DESSERTS',
           element:<DESSERTS></DESSERTS>
+        },
+        {
+          path: 'SALAD',
+          element: <SALAD></SALAD>
         }
     ],
   },
