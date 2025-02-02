@@ -16,12 +16,43 @@ const Contact = () => {
         subTitle="Would You Like To Try To Dish ?"
       ></Cover>
       <SectionTitle heading="OUR LOCATION" subHeading="Visit Us"></SectionTitle>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-        eligendi, laudantium autem amet sapiente repudiandae perferendis
-        nesciunt repellat, quidem similique, totam ea eaque accusantium corporis
-        voluptate ex recusandae voluptas expedita?
-      </p>
+       
+      <div className="flex justify-around space-x-4 p-4 bg-gray-100">
+        {/* Phone Card */}
+        <div className="bg-white shadow-lg rounded-lg overflow-hidden border">
+          <div className="bg-yellow-500 p-4 text-center text-white font-bold">
+            <i className="fas fa-phone-alt"></i>
+            <p>PHONE</p>
+          </div>
+          <div className="p-4 text-center">
+            <p>+38 (012) 34 56 789</p>
+          </div>
+        </div>
+
+        {/* Address Card */}
+        <div className="bg-white shadow-lg rounded-lg overflow-hidden border">
+          <div className="bg-yellow-500 p-4 text-center text-white font-bold">
+            <i className="fas fa-map-marker-alt"></i>
+            <p>ADDRESS</p>
+          </div>
+          <div className="p-4 text-center">
+            <p>+38 (012) 34 56 789</p>
+          </div>
+        </div>
+
+        {/* Working Hours Card */}
+        <div className="bg-white shadow-lg rounded-lg overflow-hidden border">
+          <div className="bg-yellow-500 p-4 text-center text-white font-bold">
+            <i className="fas fa-clock"></i>
+            <p>WORKING HOURS</p>
+          </div>
+          <div className="p-4 text-center">
+            <p>Mon - Fri: 08:00 - 22:00</p>
+            <p>Sat - Sun: 10:00 - 23:00</p>
+          </div>
+        </div>
+      </div>
+
       <SectionTitle
         heading="CONTACT FORM"
         subHeading="---Send Us a Message---"
@@ -80,7 +111,6 @@ const Contact = () => {
         </div>
       </form>
       <button className="btn btn-secondary mb-5 ml-96">Secondary</button>
-      
     </div>
   );
 };
