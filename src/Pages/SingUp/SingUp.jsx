@@ -5,7 +5,7 @@ const SingUp = () => {
   return (
     <div>
       <Helmet>
-        <title> | SingUp</title>
+        <title>Bistro | SingUp</title>
       </Helmet>
 
       <div className="hero bg-base-200 min-h-screen ">

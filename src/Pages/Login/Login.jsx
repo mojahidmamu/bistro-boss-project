@@ -5,7 +5,7 @@ const Login = () => {
   return (
     <div>
       <Helmet>
-        <title> | Login</title>
+        <title>Bistro | Login</title>
       </Helmet>
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-row lg:flex-row-reverse">
