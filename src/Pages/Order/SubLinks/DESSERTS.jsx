@@ -1,8 +1,12 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 const DESSERTS = () => {
   return (
     <section>
+      <Helmet>
+      <title>Bistro | Order Food | DESSERTS</title>
+      </Helmet>
       <img
         class="mask mask-pentagon"
         src="https://img.daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.webp"
