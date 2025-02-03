@@ -23,7 +23,7 @@ const Order = () => {
           <a role="tab" className="tab"> <Link to='/SALAD'>SALAD</Link> </a>
           <a role="tab" className="tab"> <Link to='/PIZZA'>PIZZA</Link></a>
           <a role="tab" className="tab"> <Link to='/DRINTKS'>DRINTKS</Link> </a>
-          <a role="tab" className="tab">DRINTKS </a>
+          <a role="tab" className="tab">Mojahid </a>
         </div>
       </div>
     </div>
