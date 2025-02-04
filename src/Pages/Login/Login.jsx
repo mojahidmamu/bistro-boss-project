@@ -87,7 +87,7 @@ const Login = () => {
                   onClick={handleValidateCaptcha}
                   className="btn btn-outline btn-xs mt-2"
                 >
-                  Validata
+                  Validata Mojahid
                 </button>
               </div>
               <div className="form-control mt-6">
